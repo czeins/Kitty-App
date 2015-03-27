@@ -1,0 +1,86 @@
+/*@import a Google Font here!*/
+
+body {
+	background-image: url(../images/background.png);
+}
+
+#header {
+	background-color: black;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#container {
+	background-color: white;
+	position: absolute;
+	padding: 20px;
+	border-radius: 20px;
+	border: 2px solid black;
+}
+
+#containerright {
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+	border: 2px solid black;
+	float: right;
+	clear: right;
+}
+
+.rightcontainer {
+
+	float: right;
+	clear: right;
+}
+
+.leftcontainer {
+
+	float: left;
+	clear: left;
+}
+
+.leftcontainer, .rightcontainer {
+	position: relative;
+	border: 2px dashed lightblue;
+	background-color: #ffffff;
+	border-radius: 20px;
+	padding: 40px;
+	margin-bottom: 20px;
+}
+
+img {
+	position: relative;
+	border-radius: 10px;
+}
+
+
+h1 {
+	font-family: helvetica;
+	text-align: center;
+
+
+}
+
+h2 {
+	font-family: helvetica;
+	font-size: 1.9em;
+	text-align: center;
+	color: #999999;
+	line-height: 0;
+}
+
+h3 {
+	font-family: helvetica;
+	font-size: 1.3em;
+	text-align: center;
+	color: pink;
+}
+
+.h3boy {
+	font-family: helvetica;
+	font-size: 1.3em;
+	text-align: center;
+	color: blue;
+}
